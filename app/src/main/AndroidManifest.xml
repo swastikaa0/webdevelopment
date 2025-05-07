@@ -13,6 +13,11 @@
         android:theme="@style/Theme.Webdevelopment"
         tools:targetApi="31">
         <activity
+            android:name=".UserRegistration"
+            android:exported="false"
+            android:label="@string/title_activity_user_registration"
+            android:theme="@style/Theme.Webdevelopment" />
+        <activity
             android:name=".Card"
             android:exported="false"
             android:label="@string/title_activity_card"
